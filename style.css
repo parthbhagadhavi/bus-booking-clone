@@ -1,0 +1,898 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    border: 1px solid black;     
+}
+
+
+html::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: black;
+}
+
+html::-webkit-scrollbar-track {
+    background: gray;
+}
+
+#abhibus-logo:hover {
+    width: 80%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.color {
+    color: gray;
+    vertical-align: middle;
+}
+
+.txtcolorora {
+    color: orange;
+}
+
+.imghwbr {
+    height: 240px;
+    width: 337px;
+    border-radius: 20px;
+}
+
+#main_nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_child {
+    height: 50px;
+    width: 9.4%;
+    /* border: 1px solid red; */
+}
+
+#df1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ml1 {
+    margin-left: 5px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+#ml2 {
+    margin-left: 5px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+#ml1:hover {
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+#ml2:hover {
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 2px solid orange;
+}
+
+#big_img {
+    height: 400px;
+    width: 100%;
+    background-image: url("https://static.abhibus.com/busimages/img/web-bg-dasara-2024-2x.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.fs1 {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.fromto {
+    font-size: 20px;
+    height: 100px;
+    width: 85%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.tickevill {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;
+}
+
+#slop {
+    height: 50px;
+    width: 250px;
+    border: none;
+    /* border-radius: 15px; */
+}
+
+.shareicon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slopca {
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+
+#todaybtn {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+#tomorrowbtn {
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#Searchbtn {
+    height: 50px;
+    width: 190px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20PX;
+    color: white;
+    background: rgb(255, 166, 0);
+}
+
+.slid {
+    height: 400px;
+    width: 100%;
+}
+
+.txt {
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txtleft {
+    height: 80px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.txtright {
+    height: 80px;
+    width: 10%;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidimg {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slid2img {
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.txt1 {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.child-txt {
+    height: 120px;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.mainslide1 {
+    height: 201px;
+    width: 157px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.slideicon {
+    height: 120px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slidetext {
+    height: 120px;
+    width: 70%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bookingapp {
+    height: 82px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.maintxt {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imghwbr:hover {
+    height: 250px;
+    width: 450px;
+    transition: 2s ease-in-out;
+}
+
+.iconcolor {
+    background-color: rgb(218, 72, 96);
+}
+
+.mainapp {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.childapp {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.appimage {
+    height: 130px;
+    width: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appfont {
+    font-size: 8px;
+}
+
+.imagetopleva {
+    margin-top: -33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-refund {
+    height: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childrefund {
+    height: 270px;
+    width: 25%;
+}
+
+.petachild {
+    height: 270px;
+    width: 90%;
+    display: flex;
+}
+
+.refundimg {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text3 {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnknow {
+    padding: 10px;
+    background: rgb(252, 165, 2);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.martop {
+    margin-top: 15px;
+}
+
+.martop2 {
+    margin-top: -50px;
+}
+
+.color1 {
+    color: orange;
+}
+
+.colorwhi {
+    color: white;
+}
+
+.hewi {
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+.hewi2 {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    margin-top: 19px;
+}
+
+.tickicon {
+    height: 90px;
+    width: 10%;
+}
+
+.widthghatadva {
+    height: 80px;
+    width: 85%;
+}
+
+.bookingappicon {
+    height: 200px;
+    width: 100%;
+}
+
+.last {
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.last2 {
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
+
+.last3 {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last4 {
+    height: 40px;
+    width: 100%;
+}
+
+.last5 {
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.apptext {
+    height: 50px;
+    width: 148px;
+}
+
+.details {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #a1c4fd78 0%, #c2e9fb 100%);
+}
+
+.child_details {
+    height: 350px;
+    width: 80%;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #a1c4fd73 0%, #c2e9fb 100%);
+    border: 1px solid white;
+}
+
+.text {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.child-text {
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #eacfb3 0%, #e2d1c3 100%);
+}
+
+.text2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-txt2 {
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #eacfb3 0%, #e2d1c3 100%);
+}
+
+.mainulli {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ulli {
+    height: 150px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordin {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.childaccordin {
+    height: auto;
+    width: 80%;
+}
+
+.imgbg {
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("https://static.abhibus.com/web/media/install/download-app.20230824.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftimg {
+    height: 500px;
+    width: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.leftimgphone {
+    height: 500px;
+    width: 45%;
+    /* border: 1px solid white; */
+}
+
+.righttextphone {
+    height: 500px;
+    width: 55%;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+.main2text {
+    height: 220px;
+    width: 100%;
+    /* border: 1px solid white; */
+    /* padding: 10px; */
+    display: flex;
+}
+
+.lefttxt {
+    height: 200px;
+    width: 50%;
+    /* border: 1px solid white; */
+    /* padding: 10px; */
+    /* display: flex; */
+
+}
+
+.righttxt {
+    height: 200px;
+    width: 50%;
+    /* border: 1px solid white; */
+    padding: 10px;
+
+}
+
+.appstore1 {
+    height: 100px;
+    width: 28%;
+}
+
+.appstore1 {
+    height: 100px;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    height: 100px;
+    width: 50%;
+
+}
+
+@media(max-width:320px) {
+    #df1 {
+        display: none;
+    }
+
+    .nav_child {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .txtleft {
+        font-size: 10px;
+    }
+
+    .child-txt {
+        height: auto;
+    }
+
+    .txt1 {
+        height: auto;
+    }
+
+    .appstore1 {
+        display: none;
+    }
+
+    .last4 {
+        display: none;
+    }
+
+    .fromto {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .fs1 {
+        font-size: 20px;
+    }
+
+    .tickevill {
+        height: auto;
+    }
+
+    .shareicon {
+        width: 35px;
+        margin-top: 5px;
+    }
+
+    #slop {
+        margin-top: 5px;
+    }
+
+    #slopca {
+        margin-top: 5px;
+    }
+
+    #todaybtn {
+        margin-top: 5px;
+    }
+
+    #tomorrowbtn {
+        margin-top: 5px;
+
+    }
+
+    #Searchbtn {
+        margin-top: 5px;
+        width: 135px;
+    }
+
+    .slidimg {
+        /* display: none; */
+        width: 319px;
+    }
+
+    .imghwbr {
+        height: 135px;
+        width: 101px;
+        border-radius: 20px;
+    }
+
+    .child_details {
+        height: auto;
+    }
+
+    .details {
+        height: auto;
+    }
+
+    .petachild {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .childrefund {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-refund {
+        height: auto;
+    }
+
+    .slid2img {
+        display: none;
+    }
+
+    .text {
+        height: auto;
+    }
+
+    .mainulli {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ulli {
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .text2 {
+        height: auto;
+    }
+
+    .child-text {
+        height: auto;
+    }
+
+    .child-txt2 {
+        height: auto;
+    }
+
+    .mainapp {
+        display: none;
+    }
+
+    .bookingappicon {
+        display: none;
+    }
+
+    .bookingapp {
+        display: none;
+    }
+
+    .big_img {
+        height: auto;
+    }
+
+    .last3 {
+        display: none;
+    }
+
+    .last5 {
+        display: none;
+    }
+
+    .imgbg {
+        height: 1000px;
+        flex-direction: column;
+        align-items: start;
+        display: inline-block;
+
+    }
+
+    .main2text {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .lefttxt {
+        width: 100%;
+    }
+
+    .righttextphone {
+        width: 100%;
+    }
+
+    .leftimg {
+        flex-direction: column;
+    }
+
+    .leftimgphone {
+        width: 117%;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+    /* .slidimg {
+        display: none;
+    } */
+
+    .imghwbr{
+        height: 223px;
+        width: 247px;
+    }
+    .slid2img {
+        display: none;
+    }
+
+    .last4 {
+        display: none;
+    }
+
+    .last5 {
+        display: none;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    #ml1 {
+        font-size: 10px;
+    }
+
+    #ml2 {
+        font-size: 9px;
+    }
+
+    .fromto {
+        width: 95%;
+        gap: 10px;
+    }
+
+    .shareicon {
+        display: none;
+    }
+
+    .txt1 {
+        height: 250px;
+    }
+
+    .child-txt {
+        height: 180px;
+    }
+
+    .text {
+        height: auto;
+    }
+
+    .child-text {
+        height: auto;
+    }
+
+    .text2 {
+        height: auto;
+    }
+
+    .child-txt2 {
+        height: auto;
+    }
+
+    .hewi {
+        height: auto;
+    }
+
+    .hewi2 {
+        height: auto;
+    }
+
+    .leftimgphone {
+        width: 50%;
+    }
+
+    .last3 {
+        display: none;
+    }
+
+    .appstore1 {
+        display: none;
+    }
+
+    .last2 {
+        display: none;
+    }
+}
